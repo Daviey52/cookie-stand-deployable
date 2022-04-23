@@ -31,6 +31,8 @@ Continue work in cookie-stand-admin repository in Github
 
 Refer to Lab Submission Instructions for detailed instructions.
 
+URL for deployed version : <https://cookie-stand-beryl.vercel.app/>
+
 Stretch Goals
 Flesh out Overview page to do more
 Remove hard coding from CreateForm and properly calculate hourly sales per cookie stand.
