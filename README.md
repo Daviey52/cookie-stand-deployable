@@ -1,23 +1,40 @@
-# Next.js + Tailwind CSS Example
+# Lab: Cookie Stand Admin Version 2
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Overview
+Your job is to continue work on Cookie Stand Admin app using Next.js and style using Tailwind CSS.
 
-## Deploy your own
+Feature Tasks and Requirements
+The specs for lab are screen shots Cookie Stand Admin Version 2 and Cookie Stand Admin No Stands
+pages/Index.js should return top level component <CookieStandAdmin
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+CookieStandAdmin details…
+Will contain the following components:
+Head, Header, main, CreateForm, ReportTable, and Footer component that matches spec.
+Import time slot data from supplied data.js file.
+CreateForm component details…
+Object should have hourly_sales property with hard coded [48, 42, 30, 24, 42, 24, 36, 42, 42, 48, 36, 42, 24, 36]
+ReportTable details…
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+If reports is empty then render h2No Cookie Stands Available</h2>
+If reports is not empty then render a table with thead,tbody and tfoot components.
+Components should render to match spec.
+Style all components using TailwindCSS utility classes to match spec.
+Implementation Notes
+Continue work in cookie-stand-admin repository
+IMPORTANT Complete version 1 tasks before moving to version 2 features.
+Pro tip: Tailwind CSS Extension Pack
+User Acceptance Tests
+No testing required.
 
-## How to use
+Configuration
+Continue work in cookie-stand-admin repository in Github
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Refer to Lab Submission Instructions for detailed instructions.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Stretch Goals
+Flesh out Overview page to do more
+Remove hard coding from CreateForm and properly calculate hourly sales per cookie stand.
+Add delete icons.
+Pro Tip: Heroicons
+Really stretch out and make delete icons functional.
+Persist Cookie Stand data.
